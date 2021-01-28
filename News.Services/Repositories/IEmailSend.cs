@@ -8,6 +8,6 @@ namespace News.Services.Repositories
 {
     public interface IEmailSend
     {
-        public Task Sendsms(string email, string subjet, string message, bool ishtml = false);
+        Task Sendsms(string email, string subjet, string message, bool ishtml = false);
     }
 }
